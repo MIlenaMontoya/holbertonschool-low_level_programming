@@ -15,7 +15,7 @@ char m = 97;
 while (m < 123)
 {
 putchar (m);
-m ++;
+m++;
 }
 putchar ('\n');
 return (0);
