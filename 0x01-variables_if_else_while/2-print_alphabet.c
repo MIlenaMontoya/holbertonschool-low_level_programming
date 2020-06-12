@@ -1,20 +1,22 @@
-#include <stdio.h> 
 #include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
+
 /**
  * main - abc
  *
  * Return: 0 always runs
- */  
+ */
 
-int main(void) 
-{ 
-  
-   
-char ch = 'a'; 
-  
-   
-for (ch = 'a'; ch <= 'z'; ch++) 
-putchar(ch "\n"); 
- 
-return (0); 
-} 
+int main(void)
+{
+char m = 97;
+
+while (m < 123)
+{
+putchar (m);
+putchar('\n');
+m = m + 1;
+	}
+return (0);
+}
