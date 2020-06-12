@@ -8,17 +8,18 @@
 
 int main(void)
 {
-	int m ='0';
+	int m = '0';
 
-	while (m <= '9')
-		{
-	putchar (m);
+while (m <= '9')
+{
+putchar (m);
+
 if (m != '9')
-		{
+	{
 putchar (',');
 putchar (' ');
 }
-else 
+else
 {
 putchar ('\n');
 }
