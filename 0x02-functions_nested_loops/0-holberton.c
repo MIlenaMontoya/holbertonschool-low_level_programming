@@ -1,20 +1,20 @@
-#include <stdio.h>
+#include "holberton.h"
 
 /**
- * main - string
+ * main - abc
  *
  * Return: 0 always runs
  */
 
 int main(void)
+
 {
-int m = 0;
-char string[] = "Holberton";
-while (string[m])
-{
-	putchar (string[m]);
-	m++;
+	char string[] = "Holberton";
+	int m;
+
+	for (m = 0; m < 9; m++)
+		{_putchar(string[m]);
 }
-	putchar ('\n');
+	_putchar('\n');
 	return (0);
 }
