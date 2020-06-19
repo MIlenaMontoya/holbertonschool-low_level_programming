@@ -29,8 +29,8 @@ else if (n % 3 == 0)
 	}
 else
 	{
-	printf("%i ", n);
+	printf("%d ", n);
 	}
-	printf("\n");
+printf("\n");
 return (0);
 }
