@@ -30,7 +30,7 @@ else if (n % 3 == 0)
 else
 	{
 	printf("%d ", n);
-	}
+}
 printf("\n");
 return (0);
 }
