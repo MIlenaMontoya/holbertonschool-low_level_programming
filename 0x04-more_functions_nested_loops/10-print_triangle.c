@@ -24,12 +24,12 @@ if (c != size && c <= size - f)
 {
 _putchar (' ');
 	}
-	else
-
+else
+	{
 _putchar ('#');
-
-_putchar ('\n');
 	}
-	}     
+}
+_putchar ('\n');
+}
 }
 }
