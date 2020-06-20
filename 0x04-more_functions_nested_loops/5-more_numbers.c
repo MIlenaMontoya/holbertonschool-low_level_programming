@@ -11,19 +11,22 @@ void more_numbers(void)
 
 {
 
-	char a = 0;	
-	if (a < 10)
-		{
-	_putchar ('_');
-	a++;
-}     
-	if (a / 10)
-		{
-       _putchar (a % 10 + '0');
+	char a, b, num, line;
+for  (line = 0; line < 10; line++)
+	{
+for (num = 0; num <= 14; num++)
+	{
+	if (num < 10)
+	b = num;
+	else
+	{
+a = num / 10;
+b = num % 10;
+	_putchar (a + '0');
+	}
+	_putchar (b + '0');
+	}
+	_putchar ('\n');
 }
-
-
-
-_putchar ('\n');
 
 }
