@@ -6,19 +6,21 @@
  * @dest: first string
  * @src: second string
  * @n: bytes
+ *
  * Return: dest
  */
 
 char *_strncpy(char *dest, char *src, int n)
 {
-	int  cont = 0;
+int  cont = 0;
+
 while (cont < n && src[cont])
 		{
 dest[cont] = src[cont];
 cont++;
 }
 
-if (cont < n)
+while (cont < n)
 	{
 	dest[cont] = '\0';
 	cont++;
