@@ -11,11 +11,12 @@
 
 char *_strncpy(char *dest, char *src, int n)
 {
-	int  cont;
-for (cont = 0; cont < n && src[cont]; cont++)
-	{
+	int  cont = 0;
+while (cont < n && src[cont])
+		{
 dest[cont] = src[cont];
-	}
+cont++;
+}
 
 if (cont < n)
 	{
