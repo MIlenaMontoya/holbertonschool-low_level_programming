@@ -19,8 +19,8 @@ return (&s[cont]);
 break;
 	}
 if (s[cont] == c)
-	{
-   return (&s[cont]);
+{
+return (&s[cont]);
 	}
 	return (0);
 }
