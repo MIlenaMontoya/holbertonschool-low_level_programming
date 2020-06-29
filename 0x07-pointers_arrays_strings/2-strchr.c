@@ -15,7 +15,6 @@ int cont;
 for (cont = 0; s[cont] != '\0'; cont++)
 	{
 if (s[cont] == c)
-return (&s[cont]);
 break;
 	}
 if (s[cont] == c)
