@@ -6,7 +6,6 @@
  * @argv: char
  *
  * Return: 0
- * On error, -1 is returned, and errno is set appropriately.
  */
 
 int main(int argc, char *argv[])
