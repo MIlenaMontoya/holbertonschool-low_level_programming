@@ -1,16 +1,14 @@
 #include "holberton.h"
 
-int _atoi(char *s);
-
 /**
- * _atoi - string/int
- * @s: char
- * Description: string a int
+ * _atoi - string to int
+ * @s: pointer
  *
- * Return: 0
+ * Return: int
  */
 
 int _atoi(char *s)
+
 {
 return (0);
 }
