@@ -6,8 +6,8 @@
  *
  * @str: string to copied.
  *
- * Return: NULL.
- *        
+ * Return: NULL
+ *
  */
 
 char *_strdup(char *str)
@@ -33,4 +33,4 @@ char *_strdup(char *str)
 	c[len] = '\0';
 
 	return (c);
-  }
+}
