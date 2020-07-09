@@ -1,7 +1,7 @@
 #include "holberton.h"
 #include <stdlib.h>
 /**
- * _calloc - creates an array and initializes it with a specific char
+ * _calloc - allocates memory for an array, using malloc
  *
  * @nmemb: unsigned int
  * @size: unsigned int
@@ -11,11 +11,10 @@
 
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	void *ptr;
-     unsigned int a;
-
-	if (nmemb == 0 || size == 0) 
-		return (NULL);
+void *ptr;
+unsigned int a;
+if (nmemb == 0 || size == 0)
+return (NULL);
 
 	ptr = malloc(nmemb * size);
 	if (ptr == NULL)
@@ -24,6 +23,5 @@ for (a = 0; a <= (nmemb * size); a++)
 {
 
 }
-return (ptr);		
-	
+return (ptr);
 }
