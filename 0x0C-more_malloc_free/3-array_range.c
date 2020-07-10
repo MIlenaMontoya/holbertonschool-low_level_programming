@@ -21,7 +21,7 @@ return (NULL);
 	ptr = malloc(((max - min) + 1) * sizeof(int));
 	if (ptr == NULL)
 		return (NULL);
-for (a = 0; min > max; a++)
+                for (a = 0; a < max - min; a++)
 {
 ptr[a] = 0;
 }
