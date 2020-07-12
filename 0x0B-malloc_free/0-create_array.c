@@ -3,10 +3,10 @@
 /**
  * create_array - creates an array and initializes it with a specific char
  *
- * @size: unsigned int, size of array
- * @c: char array
+ * @size: unsigned int
+ * @c: char
  *
- * Return: pointer of array
+ * Return: pointer
  */
 
 char *create_array(unsigned int size, char c)
@@ -20,9 +20,10 @@ char *create_array(unsigned int size, char c)
 	if (arr == NULL)
 		return (NULL);
 while (i < size)
-		{
-	*(arr + i) = c;
-	i++;
-		}
+for (i = 0; i < size; i++)
+{
+arr[i] = c;
+}
+
 	return (arr);
 }
