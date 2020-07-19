@@ -15,7 +15,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 
 va_list str;
 unsigned int i;
-char *word = 0;
+char *word;
 
 va_start(str, n);
 
@@ -26,7 +26,7 @@ if (word == NULL)
 printf("(nill)");
 else
 printf("%s", word);
-if (separator != NULL && i < n - 1)
+if (separator != NULL && i != n - 1)
 printf("%s", separator);
 }
 va_end(str);
