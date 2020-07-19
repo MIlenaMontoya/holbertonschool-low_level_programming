@@ -26,10 +26,10 @@ if (word == NULL)
 printf("(nill)");
 else
 printf("%s", word);
-if (separator != NULL && i != n - 1)
+if (separator != NULL && i < n - 1)
 printf("%s", separator);
 }
-va_end(str);
 printf("\n");
+va_end(str);
 }
 
