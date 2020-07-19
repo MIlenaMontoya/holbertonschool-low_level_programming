@@ -22,10 +22,10 @@ for (i = 0; i < n; i++)
 {
 word = va_arg(str, char *);
 if (word == NULL)
-printf("(nill)");
+printf("(nil)");
 else
 printf("%s", word);
-if (separator != NULL && (i < n - 1))
+if (separator != NULL && i < n - 1)
 printf("%s", separator);
 }
 printf("\n");
