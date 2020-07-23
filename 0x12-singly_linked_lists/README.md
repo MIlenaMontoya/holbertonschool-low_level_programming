@@ -1,2 +1,1 @@
-# Linked List 
-:link:
+# Linked List 🔗 📑
