@@ -1,1 +1,2 @@
-# Linked List (https://simpleicon.com/wp-content/uploads/link-2.svg)
+# Linked List 
+:link:
