@@ -7,11 +7,11 @@
  * @t: print type
  * @f: print function
  */
-typedef struct print
+typedef struct all_print
 {
 	char *t;
 	void (*f)(va_list);
-} print_t;
+} print;
 
 int sum_them_all(const unsigned int n, ...);
 void print_numbers(const char *separator, const unsigned int n, ...);

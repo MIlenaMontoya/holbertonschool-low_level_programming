@@ -58,7 +58,7 @@ void print_float(va_list f)
 void print_all(const char * const format, ...)
 {
 	int i, j;
-	print_t p[] = {
+	print p[] = {
 		{"c", print_char},
 		{"s", print_string},
 		{"i", print_int},
