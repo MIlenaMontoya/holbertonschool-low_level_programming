@@ -58,7 +58,7 @@ void print_float(va_list f)
 void print_all(const char * const format, ...)
 {
 	int i, j;
-	print p[] = {
+	print a_s[] = {
 		{"c", print_char},
 		{"s", print_string},
 		{"i", print_int},
@@ -73,14 +73,13 @@ void print_all(const char * const format, ...)
 	while (format && format[i])
 	{
 		j = 0;
-		while (p[j].t != NULL)
+		while (a_s[j].m != NULL)
 		{
-			if (*(p[j].t) == format[i])
+			if (*(a_s[j].m) == format[i])
 			{
 				printf("%s", separator);
-				p[j].f(list_print);
+				a_s[j].fun(list_print);
 				separator = ", ";
-				break;
 			}
 			j++;
 		}

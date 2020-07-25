@@ -9,8 +9,8 @@
  */
 typedef struct all_print
 {
-	char *t;
-	void (*f)(va_list);
+	char *m;
+	void (*fun)();
 } print;
 
 int sum_them_all(const unsigned int n, ...);
