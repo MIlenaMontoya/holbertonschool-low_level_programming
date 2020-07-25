@@ -3,9 +3,9 @@
 
 #include <stdarg.h>
 /**
- * struct print - print type with corresponding print function
- * @t: print type
- * @f: print function
+ * struct all_print - name the structure
+ * @m: print type
+ * @fun: print function
  */
 typedef struct all_print
 {
