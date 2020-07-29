@@ -8,11 +8,11 @@
  */
 int sum_listint(listint_t *head)
 {
-	int add;
+int add;
 for (add = 0; head != NULL;)
-	{
-		add = add + (head->n);
-		head = head->next;
-	}
-	return (add);
+{
+add = add + (head->n);
+head = head->next;
+}
+return (add);
 }
