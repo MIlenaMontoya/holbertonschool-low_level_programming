@@ -15,7 +15,7 @@ int set_bit(unsigned long int *n, unsigned int index)
 		return (-1);
 	}
 	vset = vset << index;
-	*n = (*n | vset);
+	*n = *n | vset;
 	return (1);
 
 }
