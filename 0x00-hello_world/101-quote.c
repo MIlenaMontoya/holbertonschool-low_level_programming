@@ -1,7 +1,7 @@
 #include <unistd.h>
 
 /**
- * main - Function printipal - Entry point
+ * main - Entry point
  *
  * Return: Always 0
  */
