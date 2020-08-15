@@ -1,9 +1,9 @@
 #include "holberton.h"
 /**
  * puts_half -  prints half of a string
- * @str: array with the characters
+ * @str: array the characters
  *
- * Return: Always 0.
+ * Return: Always 0
  */
 void puts_half(char *str)
 {
