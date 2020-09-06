@@ -12,7 +12,7 @@ if (head == NULL)
 return;
 for (; *head != NULL;)
 {
-ist_free = (*head)->next;
+list_free = (*head)->next;
 free(*head);
 *head = list_free;
 }
